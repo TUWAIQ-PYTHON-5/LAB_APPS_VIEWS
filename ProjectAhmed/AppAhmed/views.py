@@ -6,3 +6,7 @@ from django.http import HttpRequest,HttpResponse
 def index(request : HttpRequest):
     msg="welcome to yourHome Page"
     return HttpResponse(msg)
+
+def index_about(request : HttpRequest):
+    msg="A simple paragraph about the website."  
+    return HttpResponse(msg)  
